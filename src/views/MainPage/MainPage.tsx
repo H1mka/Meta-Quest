@@ -1,13 +1,13 @@
 import s from './styles.module.scss';
-import Header from 'components/Header/Header';
-import Presetation from 'components/Presentation/Presetation';
+import { Header, Overview, Presentation } from 'components';
 
 function MainPage() {
     return (
         <div className={s.mainWrapper}>
             <Header />
             <main>
-                <Presetation />
+                <Presentation />
+                <Overview />
             </main>
         </div>
     );

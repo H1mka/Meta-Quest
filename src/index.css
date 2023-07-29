@@ -21,6 +21,13 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+h1 {
+    font-size: 5rem;
+    line-height: 63px;
+    color: var(--textDark);
+    margin: 50px 0px 0px 0px;
+}
+
 @font-face {
     font-family: NunitoSans-Regular;
     src: url(./assets/fonts/NunitoSans_7pt-Regular.ttf);
