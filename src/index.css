@@ -1,0 +1,27 @@
+:root {
+    --white: #ffffff;
+    --lightBlue: rgba(95, 129, 255, 1);
+    --darkBlue: rgba(0, 56, 255, 1);
+    --bgcDark: #252525;
+    --textDark: #343434;
+    --textGrey: #9a9a9a;
+    --navGrey: #d6d6d6;
+}
+
+body {
+    margin: 0;
+    font-family: NunitoSans-Regular;
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bgcDark);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url(./assets/fonts/NunitoSans_7pt-Regular.ttf);
+}

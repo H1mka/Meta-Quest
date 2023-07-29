@@ -1,0 +1,46 @@
+.presWrapper {
+    max-width: 1350px;
+    height: 840px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 32px;
+    background: radial-gradient(
+            98.33% 98.33% at 50% 50%,
+            rgba(0, 56, 255, 0.2) 0%,
+            rgba(0, 56, 255, 0.2) 0.01%,
+            rgba(248, 230, 255, 0.03) 100%
+        ),
+        #fff;
+
+    img {
+        width: 78%; // ?
+        position: absolute;
+        height: auto;
+        margin-left: 32px;
+    }
+
+    .textWrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 66px;
+        margin-bottom: 90px;
+        p {
+            font-size: 3.125rem;
+            line-height: 50px;
+            color: var(--textGrey);
+            max-width: 284px;
+            text-align: right;
+            margin: 0;
+        }
+        h1 {
+            font-size: 5rem;
+            line-height: 63px;
+            color: var(--textDark);
+            margin: 50px 0px 0px 0px;
+        }
+    }
+}
