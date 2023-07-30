@@ -4,6 +4,10 @@ header {
     gap: 25px;
     height: 90px;
     margin-bottom: 32px;
+    position: sticky;
+    background-color: var(--bgcDark);
+    top: 0;
+    z-index: 1000;
 
     .logo {
         span {
@@ -12,6 +16,7 @@ header {
             color: var(--white);
             margin-left: 7px;
         }
+        cursor: pointer;
     }
 
     nav {

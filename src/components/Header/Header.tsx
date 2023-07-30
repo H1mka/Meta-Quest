@@ -1,27 +1,36 @@
 import s from './styles.module.scss';
 import svg from 'assets/images/logo.svg';
 import CustomButton from 'components/CustomButton/CustomButton';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return (
         <header>
-            <div className={s.logo}>
+            <Link className={s.logo} to='presentation' smooth={true} offset={-90} duration={50}>
                 <img src={svg} alt=''></img>
                 <span>Meta</span>
-            </div>
+            </Link>
             <nav>
                 <ul>
                     <li>
-                        <a href='#overview'>Overview</a>
+                        <Link to='overview' smooth={true} offset={-90} duration={0}>
+                            Overview
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>Features</a>
+                        <Link to='features' smooth={true} offset={-90} duration={50}>
+                            Features
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>Tech Specs</a>
+                        <Link to='overview' smooth={true} offset={-90} duration={50}>
+                            Tech Specs
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>Reviews</a>
+                        <Link to='overview' smooth={true} offset={-90} duration={50}>
+                            Reviews
+                        </Link>
                     </li>
                 </ul>
             </nav>

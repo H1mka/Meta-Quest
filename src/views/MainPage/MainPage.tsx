@@ -1,5 +1,5 @@
 import s from './styles.module.scss';
-import { Header, Overview, Presentation } from 'components';
+import { Header, Overview, Presentation, Features } from 'components';
 
 function MainPage() {
     return (
@@ -8,6 +8,7 @@ function MainPage() {
             <main>
                 <Presentation />
                 <Overview />
+                <Features />
             </main>
         </div>
     );

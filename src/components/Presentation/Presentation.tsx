@@ -3,7 +3,7 @@ import image from 'assets/images/presentation_vr.png';
 
 const Presetation = () => {
     return (
-        <div className={s.presWrapper}>
+        <div className={s.presWrapper} id='presentation'>
             <img src={image} alt='Meta Quest 2' />
             <div className={s.textWrapper}>
                 <p>The best way to experience virtual reality!</p>
