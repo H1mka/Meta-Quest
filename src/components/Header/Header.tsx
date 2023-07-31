@@ -23,12 +23,12 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to='overview' smooth={true} offset={-90} duration={50}>
+                        <Link to='techSpecs' smooth={true} offset={-90} duration={50}>
                             Tech Specs
                         </Link>
                     </li>
                     <li>
-                        <Link to='overview' smooth={true} offset={-90} duration={50}>
+                        <Link to='reviews' smooth={true} offset={-90} duration={50}>
                             Reviews
                         </Link>
                     </li>
