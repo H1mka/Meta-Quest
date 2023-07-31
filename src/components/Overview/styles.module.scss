@@ -1,7 +1,9 @@
 .wrapper {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-bottom: 186px;
+    max-width: 1240px;
 
     h1 {
         color: var(--white);
