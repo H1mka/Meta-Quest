@@ -4,5 +4,6 @@ import Header from './Header/Header';
 import CustomButton from './CustomButton/CustomButton';
 import Features from './Features/Features';
 import TechSpecs from './TechSpecs/TechSpecs';
+import Customers from './Customers/Customers';
 
-export { Overview, Presentation, Header, CustomButton, Features, TechSpecs };
+export { Overview, Presentation, Header, CustomButton, Features, TechSpecs, Customers };

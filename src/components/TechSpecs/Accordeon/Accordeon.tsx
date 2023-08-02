@@ -1,10 +1,11 @@
 import { FC, useState, useEffect, useRef } from 'react';
 import s from './Accordeon.module.scss';
 import chevron from 'assets/icons/chevron-down-solid.svg';
+import { IAccordeonContent } from 'types/IAccordeonContent';
 
 interface IAccordeon {
     caption: string;
-    contentData: Array<{ subheading: string; text: string }>;
+    contentData: Array<IAccordeonContent>;
 }
 
 const Accordeon: FC<IAccordeon> = ({ caption, contentData }) => {
@@ -39,16 +40,6 @@ const Accordeon: FC<IAccordeon> = ({ caption, contentData }) => {
                         </section>
                     );
                 })}
-                {/* <table>
-                    {contentData?.map((item, index) => {
-                        return (
-                            <tr>
-                                <td>{item.subheading}</td>
-                                <td>{item.text}</td>
-                            </tr>
-                        );
-                    })}
-                </table> */}
             </div>
         </article>
     );

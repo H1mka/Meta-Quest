@@ -1,5 +1,5 @@
 import s from './styles.module.scss';
-import svg from 'assets/images/logo.svg';
+import svg from 'assets/icons/logo.svg';
 import CustomButton from 'components/CustomButton/CustomButton';
 import { Link } from 'react-scroll';
 
