@@ -1,5 +1,5 @@
 import s from './styles.module.scss';
-import { Header, Overview, Presentation, Features, TechSpecs } from 'components';
+import { Header, Overview, Presentation, Features, TechSpecs, Customers } from 'components';
 
 function MainPage() {
     return (
@@ -10,6 +10,7 @@ function MainPage() {
                 <Overview />
                 <Features />
                 <TechSpecs />
+                <Customers />
             </main>
         </div>
     );
