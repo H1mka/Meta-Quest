@@ -14,7 +14,8 @@ html {
 }
 
 body {
-    margin: 0;
+    width: 1440px;
+    margin: 0 auto;
     font-family: NunitoSans-Regular;
     color: var(--white);
     -webkit-font-smoothing: antialiased;

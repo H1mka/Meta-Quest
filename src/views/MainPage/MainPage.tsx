@@ -1,5 +1,14 @@
 import s from './styles.module.scss';
-import { Header, Overview, Presentation, Features, TechSpecs, Customers } from 'components';
+import {
+    Header,
+    Overview,
+    Presentation,
+    Features,
+    TechSpecs,
+    Customers,
+    DiveInMeta,
+    Footer,
+} from 'components';
 
 function MainPage() {
     return (
@@ -11,7 +20,9 @@ function MainPage() {
                 <Features />
                 <TechSpecs />
                 <Customers />
+                <DiveInMeta />
             </main>
+            <Footer />
         </div>
     );
 }

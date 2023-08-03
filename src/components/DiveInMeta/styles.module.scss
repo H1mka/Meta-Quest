@@ -1,0 +1,35 @@
+.diveWrapper {
+    width: 1350px;
+    height: 848px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+
+    background: radial-gradient(
+            98.33% 98.33% at 50% 50%,
+            rgba(0, 56, 255, 0.2) 0%,
+            rgba(248, 230, 255, 0.03) 100%
+        ),
+        #fff;
+
+    h1 {
+        margin-top: 80px;
+    }
+
+    img {
+        width: 598px;
+        height: auto;
+    }
+
+    button {
+        background: radial-gradient(
+                77.29% 77.29% at 50% 50%,
+                rgba(189, 0, 255, 0.2) 0%,
+                rgba(189, 0, 255, 0) 100%
+            ),
+            #252525;
+    }
+}

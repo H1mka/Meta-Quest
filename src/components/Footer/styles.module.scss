@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    font-size: 1.125rem;
+    line-height: 60px;
+
+    .language {
+        display: flex;
+        flex: 1 0 auto;
+        img {
+            width: 25px;
+            height: auto;
+        }
+    }
+
+    .copyRight {
+        display: flex;
+        gap: 25px;
+    }
+}

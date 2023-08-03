@@ -4,6 +4,7 @@ interface ICustomButton {
     text: string;
     padding: string;
     color: string;
+    fontSize?: string;
 }
 
 interface IStyle {
@@ -17,15 +18,15 @@ interface IStyle {
     cursor: string;
 }
 
-const CustomButton: FC<ICustomButton> = ({ text, padding, color }) => {
+const CustomButton: FC<ICustomButton> = ({ text, padding, color, fontSize = '1.5rem' }) => {
     const style: IStyle = {
         flex: '0 0 auto',
         padding: `${padding}`,
+        fontSize: `${fontSize}`,
+        color: `${color}`,
         borderRadius: '100px',
         border: 'none',
         lineHeight: '24px',
-        color: `${color}`,
-        fontSize: '1.125rem',
         cursor: 'pointer',
     };
 
