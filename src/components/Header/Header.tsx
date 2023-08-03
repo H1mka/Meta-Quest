@@ -34,7 +34,14 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <CustomButton text='Buy now' padding='15px 45px' color='var(--textDark)' />
+            <Link to='diveInMeta' smooth={true} offset={-90} duration={50}>
+                <CustomButton
+                    text='Buy now'
+                    padding='15px 45px'
+                    color='var(--textDark)'
+                    fontSize='1.125rem'
+                />
+            </Link>
         </header>
     );
 };
