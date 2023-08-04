@@ -8,6 +8,10 @@
     align-items: center;
     margin-bottom: 186px;
 
+    @media (max-width: 320px) {
+        margin-left: 16px;
+    }
+
     & > * {
         width: 100%; // slider need 100% width
     }
