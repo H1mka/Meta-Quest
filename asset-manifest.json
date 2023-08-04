@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Meta-Quest/static/css/main.7127abc0.css",
+    "main.js": "/Meta-Quest/static/js/main.a25e96b6.js",
+    "static/media/presentation_vr.png": "/Meta-Quest/static/media/presentation_vr.95c66f64fbb8f77a150b.png",
+    "static/media/overview_girl.png": "/Meta-Quest/static/media/overview_girl.aeb298d4951897d08ca3.png",
+    "static/media/diveMetaverse.png": "/Meta-Quest/static/media/diveMetaverse.e4ca48cf1be52998839e.png",
+    "static/media/features_lenses.png": "/Meta-Quest/static/media/features_lenses.13ff18d1cc9ebc075c14.png",
+    "static/media/features_vrHeadSet.png": "/Meta-Quest/static/media/features_vrHeadSet.28ab7940ec889697a1dc.png",
+    "static/media/features_controller.png": "/Meta-Quest/static/media/features_controller.741323b04f70e897cad5.png",
+    "static/media/NunitoSans_7pt-Regular.ttf": "/Meta-Quest/static/media/NunitoSans_7pt-Regular.a02d444a210c95569024.ttf",
+    "static/media/avatarJason.png": "/Meta-Quest/static/media/avatarJason.6318fd4901b629aee59b.png",
+    "static/media/avatarHouston.png": "/Meta-Quest/static/media/avatarHouston.4cea3f9ec38c52f7fea0.png",
+    "static/media/avatarLinda.png": "/Meta-Quest/static/media/avatarLinda.ff6d53a93b8cfde73bb4.png",
+    "static/media/avatarJacob.png": "/Meta-Quest/static/media/avatarJacob.c4513621d71dd03c8c4b.png",
+    "static/media/logo.svg": "/Meta-Quest/static/media/logo.6628d4d20675bad0646a916f1e3ad2f2.svg",
+    "index.html": "/Meta-Quest/index.html",
+    "static/media/star_grey.svg": "/Meta-Quest/static/media/star_grey.d0189b0f56321de30bf56ba77c78bb64.svg",
+    "static/media/star_white.svg": "/Meta-Quest/static/media/star_white.96a490b05b2555de894fff462806b7d7.svg",
+    "static/media/chevron-down-solid.svg": "/Meta-Quest/static/media/chevron-down-solid.d4b53c1bb6b61dad3ea0f0d86cbcd9c4.svg",
+    "main.7127abc0.css.map": "/Meta-Quest/static/css/main.7127abc0.css.map",
+    "main.a25e96b6.js.map": "/Meta-Quest/static/js/main.a25e96b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7127abc0.css",
+    "static/js/main.a25e96b6.js"
+  ]
+}
