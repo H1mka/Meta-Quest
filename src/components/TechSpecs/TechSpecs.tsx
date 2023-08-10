@@ -7,7 +7,8 @@ const TechSpecs: FC = () => {
         <div
             id='techSpecs'
             style={{
-                width: '1240px',
+                maxWidth: '1240px',
+                width: '100%',
                 margin: '0 auto',
                 marginBottom: '186px',
                 display: 'flex',

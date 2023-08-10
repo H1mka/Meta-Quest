@@ -20,10 +20,6 @@ header {
         cursor: pointer;
     }
 
-    @media (max-width: 320px) {
-        max-width: 1280px;
-    }
-
     nav {
         color: var(--navGrey);
         flex: 1 0 auto;
@@ -41,7 +37,62 @@ header {
             }
         }
     }
-}
 
-// @media (max-width: 320px) {
-// }
+    @media (max-width: 768px) {
+        button {
+            white-space: nowrap;
+            padding: 10px 30px !important;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                font-size: 1.25rem;
+            }
+        }
+
+        nav {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 425px) {
+        gap: 10px;
+        button {
+            padding: 5px 20px !important;
+            font-size: 1rem !important;
+        }
+
+        .logo {
+            span {
+                display: none;
+            }
+        }
+
+        nav {
+            font-size: 0.8rem;
+
+            ul {
+                gap: 10px;
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        gap: 10px;
+        button {
+            padding: 5px 9px !important;
+            font-size: 0.6rem !important;
+        }
+
+        nav {
+            font-size: 0.6rem;
+
+            ul {
+                gap: 10px;
+            }
+        }
+    }
+}

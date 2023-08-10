@@ -5,10 +5,6 @@
     margin-bottom: 186px;
     max-width: 1240px;
 
-    @media (max-width: 320px) {
-        margin-left: 16px;
-    }
-
     h1 {
         color: var(--white);
         line-height: 70px;
@@ -24,12 +20,32 @@
     }
 
     img {
-        max-width: 613px;
+        max-width: 50%;
+        width: 100%;
         height: auto;
+
+        @media (max-width: 768px) {
+            height: max-content;
+        }
+
+        @media (max-width: 425px) {
+            display: none;
+        }
     }
 
     &#overview {
         display: none;
         background-color: #931717;
+    }
+
+    @media (max-width: 1024px) {
+        h1 {
+            font-size: 3.25rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        margin-left: 16px;
+        align-items: center;
     }
 }
