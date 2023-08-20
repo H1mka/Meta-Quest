@@ -26,7 +26,6 @@ const Customers: FC = () => {
                 </div>
 
                 <div className={s.customersInfo}>
-                    {/* <CustomerItem customerName='Linda Wiza MD' avatarSrc={imgLinda} rating={5} /> */}
                     {ReviewsInfo &&
                         ReviewsInfo.map((item, index) => {
                             return (

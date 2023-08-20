@@ -8,7 +8,8 @@ import imgLenses from 'assets/images/features_lenses.png';
 
 const Features: FC = () => {
     const [currentSlide, setCurrentSlide] = useState<number>(0);
-
+    console.log(window.outerWidth > 1000);
+    console.log(window.outerWidth);
     const settings = {
         dots: false,
         arrows: false,
@@ -18,7 +19,7 @@ const Features: FC = () => {
         slidesToScroll: 1,
         initialSlide: 0,
         vertical: true,
-        verticalSwiping: true,
+        verticalSwiping: window.outerWidth > 1000,
         autoplay: true,
         autoplaySpeed: 4000,
         pauseOnFocus: true,

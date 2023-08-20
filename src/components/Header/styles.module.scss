@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 header {
     max-width: 1440px;
     display: flex;
@@ -12,7 +14,7 @@ header {
 
     .logo {
         span {
-            font-size: 1.75rem;
+            font-size: 28px; // @include adaptiv-font(28, 10);
             font-weight: 700;
             color: var(--white);
             margin-left: 7px;
@@ -24,6 +26,7 @@ header {
         color: var(--navGrey);
         flex: 1 0 auto;
         font-size: 1.25rem;
+        @include adaptiv-font(20, 9);
 
         ul {
             display: flex;
@@ -52,9 +55,19 @@ header {
                 font-size: 1.25rem;
             }
         }
+    }
+
+    @media (max-width: 611px) {
+        gap: 10px;
+        button {
+            padding: 5px 20px !important;
+            font-size: 1rem !important;
+        }
 
         nav {
-            font-size: 1rem;
+            ul {
+                gap: 10px;
+            }
         }
     }
 
@@ -72,8 +85,6 @@ header {
         }
 
         nav {
-            font-size: 0.8rem;
-
             ul {
                 gap: 10px;
             }
@@ -88,8 +99,6 @@ header {
         }
 
         nav {
-            font-size: 0.6rem;
-
             ul {
                 gap: 10px;
             }

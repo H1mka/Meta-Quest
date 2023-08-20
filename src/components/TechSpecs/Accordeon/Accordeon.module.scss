@@ -1,10 +1,12 @@
+@import './mixins.scss';
+
 .accordeon {
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px 40px;
-    font-size: 1.75rem;
+    @include adaptiv-font(28, 10);
     line-height: 60px;
     border-radius: 15px;
     background: radial-gradient(
@@ -30,7 +32,7 @@
         overflow: hidden;
 
         section {
-            font-size: 1.25rem;
+            @include adaptiv-font(20, 6);
             max-width: 1006px;
             margin: 0 auto;
             display: flex;
@@ -54,36 +56,6 @@
                     max-width: 582px;
                     width: 100%;
                 }
-            }
-        }
-    }
-
-    @media (max-width: 425px) {
-        font-size: 1rem;
-
-        .accordeonTogle {
-            section {
-                font-size: 0.8rem;
-            }
-        }
-    }
-
-    @media (max-width: 375px) {
-        font-size: 0.85rem;
-
-        .accordeonTogle {
-            section {
-                font-size: 0.65rem;
-            }
-        }
-    }
-
-    @media (max-width: 320px) {
-        font-size: 0.65rem;
-
-        .accordeonTogle {
-            section {
-                font-size: 0.45rem;
             }
         }
     }
