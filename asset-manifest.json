@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Meta-Quest/static/css/main.70a73c5a.css",
-    "main.js": "/Meta-Quest/static/js/main.3b03eed8.js",
+    "main.css": "/Meta-Quest/static/css/main.c8c8e073.css",
+    "main.js": "/Meta-Quest/static/js/main.424331a2.js",
     "static/media/presentation_vr.png": "/Meta-Quest/static/media/presentation_vr.95c66f64fbb8f77a150b.png",
     "static/media/overview_girl.png": "/Meta-Quest/static/media/overview_girl.aeb298d4951897d08ca3.png",
     "static/media/diveMetaverse.png": "/Meta-Quest/static/media/diveMetaverse.e4ca48cf1be52998839e.png",
@@ -18,11 +18,11 @@
     "static/media/star_grey.svg": "/Meta-Quest/static/media/star_grey.d0189b0f56321de30bf56ba77c78bb64.svg",
     "static/media/star_white.svg": "/Meta-Quest/static/media/star_white.96a490b05b2555de894fff462806b7d7.svg",
     "static/media/chevron-down-solid.svg": "/Meta-Quest/static/media/chevron-down-solid.d4b53c1bb6b61dad3ea0f0d86cbcd9c4.svg",
-    "main.70a73c5a.css.map": "/Meta-Quest/static/css/main.70a73c5a.css.map",
-    "main.3b03eed8.js.map": "/Meta-Quest/static/js/main.3b03eed8.js.map"
+    "main.c8c8e073.css.map": "/Meta-Quest/static/css/main.c8c8e073.css.map",
+    "main.424331a2.js.map": "/Meta-Quest/static/js/main.424331a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.70a73c5a.css",
-    "static/js/main.3b03eed8.js"
+    "static/css/main.c8c8e073.css",
+    "static/js/main.424331a2.js"
   ]
 }
