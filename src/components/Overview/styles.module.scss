@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -7,12 +9,13 @@
 
     h1 {
         color: var(--white);
+        @include adaptiv-font(80, 44);
         line-height: 70px;
         margin-bottom: 45px;
     }
 
     p {
-        font-size: 1.625rem;
+        @include adaptiv-font(26, 22);
         color: var(--textGrey);
         margin-bottom: 50px;
         line-height: 36px;
@@ -28,7 +31,7 @@
             height: max-content;
         }
 
-        @media (max-width: 425px) {
+        @media (max-width: 760px) {
             display: none;
         }
     }
@@ -38,14 +41,17 @@
         background-color: #931717;
     }
 
-    @media (max-width: 1024px) {
-        h1 {
-            font-size: 3.25rem;
-        }
-    }
-
     @media (max-width: 768px) {
         margin-left: 16px;
         align-items: center;
+
+        h1 {
+            text-align: center;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

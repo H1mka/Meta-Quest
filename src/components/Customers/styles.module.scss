@@ -1,15 +1,18 @@
+@import './mixins.scss';
+
 .customersWrap {
-    width: 1141px;
+    max-width: 1141px;
     margin: 0 auto;
     margin-bottom: 186px;
     h1 {
         color: var(--white);
         margin-bottom: 84px;
+        @include adaptiv-font(80, 15);
     }
 
     article {
         display: flex;
-        gap: 170px;
+        gap: 10%;
 
         .customersInfo {
             display: flex;
@@ -18,7 +21,8 @@
         }
 
         .textBlock {
-            width: 541px;
+            max-width: 541px;
+            width: 100%;
             height: 400px;
             border-radius: 15px;
             color: var(--textDark);
@@ -35,19 +39,37 @@
                 #fff;
 
             p {
-                font-size: 1.25rem;
+                @include adaptiv-font(20, 9);
                 line-height: 24px;
-                width: 407px;
+                max-width: 407px;
             }
 
             hr {
-                width: 400px;
+                max-width: 400px;
+                width: 100%;
                 margin: 0;
                 margin-left: 20px;
                 height: 1px;
                 border: none;
                 background-color: var(--textGrey);
                 color: var(--textGrey);
+            }
+        }
+    }
+    @media (max-width: 886px) {
+        h1 {
+            margin-bottom: 50px;
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .customersInfo {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 12px;
             }
         }
     }

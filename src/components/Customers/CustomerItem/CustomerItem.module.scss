@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 .borderWrap {
     display: inline-block;
     border-right: 1px solid var(--textDark);
@@ -5,17 +7,25 @@
     &.active {
         border-right: 1px solid var(--textGrey);
     }
+
+    @media (max-width: 886px) {
+        border: none;
+        &.active {
+            border-right: none;
+        }
+    }
 }
 
 .customerItemWrap {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 90px;
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 8px;
     border-radius: 100px;
-    font-size: 1.25rem;
+    @include adaptiv-font(20, 9);
     line-height: 24px;
     margin-right: 20px;
     color: var(--textGrey);
@@ -38,7 +48,7 @@
     }
 
     .customerName {
-        font-size: 1.625rem;
+        @include adaptiv-font(26, 12);
     }
 
     .ratingStars {
@@ -71,6 +81,10 @@
 
         &.active {
             border: none;
+        }
+
+        @media (max-width: 886px) {
+            margin-right: 0px;
         }
     }
 }

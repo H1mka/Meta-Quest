@@ -39,7 +39,7 @@ const Header = () => {
                     text='Buy now'
                     padding='15px 45px'
                     color='var(--textDark)'
-                    fontSize='1.125rem'
+                    // fontSize='1.125rem'
                 />
             </Link>
         </header>

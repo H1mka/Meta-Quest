@@ -9,6 +9,7 @@
     margin-bottom: 186px;
 
     & > * {
+        max-width: 1116px;
         width: 100%; // slider need 100% width
     }
 
@@ -21,7 +22,7 @@
 
     .slider_dots {
         max-width: 0px;
-        margin: 0px 40px;
+        margin: 0px 5%;
         div {
             border: 1px solid #c2c2c2;
             height: 133px;
